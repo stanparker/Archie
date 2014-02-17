@@ -1,0 +1,187 @@
+body {
+padding 0px;
+}
+
+p {
+	font-family:'Georgia';
+	font-size:16px;
+}
+
+#side-column {
+	float:left;
+	width: 250px;
+	margin-right:15px;
+	clear:both;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family:'Helvetica','Arial', sans-serif;
+}
+
+#side-column a {
+
+color:black;
+text-decoration:none;
+width: 100%;
+font-family:'Arial Black', Impact, sans-serif;
+}
+
+
+#side-column a:hover {
+	color:green;
+}
+
+#side-column li {
+	list-style:none;
+	width:100%;
+	background-color: #eee;
+	margin-left:0px;
+	margin-top:3px;
+	padding:3px;
+
+}
+
+#header {
+	background-color: #0099CC;
+	margin: 0px;
+	position:fixed;
+	top:0px;
+	left:0px;
+	right:0px;	
+	height:50px;
+	border-bottom: 3px solid #333;
+}
+
+#header h1 {
+color:white;
+margin-left:30px;
+margin-top:5px;
+}
+
+#wrapper {
+	margin-top:100px;
+}
+
+#top-menu {
+	position:fixed;
+	color:white;
+	top:40px;
+	right:30%;
+}
+
+#top-menu li{
+	list-style:none;
+	width:150px;
+	padding:5px;
+	margin-left:0px;
+	padding-left:0px;
+}
+
+#show-menu {
+	position:fixed;
+	top:0px;
+	right:30%;
+}	
+
+
+#top-menu li a{
+	margin-top:-5px;
+	display:block;
+	color:white;
+	text-decoration:none;
+	font-family:sans-serif;
+	font-weight:bold;
+	text-align:center;
+	width:150px;
+	margin-left:25px;
+	padding: 8px;
+	background-color:black;
+}
+
+#top-menu li a:hover{
+	background-color: #0099CC;
+}
+
+#main-window {
+margin-left: 300px;
+}
+
+/******* FORM *******/
+#new-tape-form{
+	padding: 0 10px 10px;
+}
+#new-tape-form label{
+	display: block;
+	color: #797979;
+	font-weight: 700;
+	line-height: 1.4em;
+}
+#new-tape-form input{
+	width: 220px;
+	padding: 6px;
+	color: #949494;
+	font-family: Arial,  Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	border: 1px solid #cecece;
+}
+#new-tape-form input.error{
+	background: #f8dbdb;
+	border-color: #e77776;
+}
+#new-tape-form textarea{
+	width: 550px;
+	height: 80px;
+	padding: 6px;
+	color: #adaeae;
+	font-family: Arial,  Verdana, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 12px;
+	border: 1px solid #cecece;
+}
+#new-tape-form textarea.error{
+	background: #f8dbdb;
+	border-color: #e77776;
+}
+#new-tape-form div{
+	margin-bottom: 15px;
+}
+#new-tape-form div span{
+	margin-left: 10px;
+	color: #b1b1b1;
+	font-size: 11px;
+	font-style: italic;
+}
+#new-tape-form div span.error{
+	color: #e46c6e;
+}
+#new-tape-form #send{
+	background: #6f9ff1;
+	color: #fff;
+	font-weight: 700;
+	font-style: normal;
+	border: 0;
+	cursor: pointer;
+}
+#new-tape-form #send:hover{
+	background: #79a7f1;
+}
+#error{
+	margin-bottom: 20px;
+	border: 1px solid #efefef;
+}
+#error ul{
+	list-style: square;
+	padding: 5px;
+	font-size: 11px;
+}
+#error ul li{
+	list-style-position: inside;
+	line-height: 1.6em;
+}
+#error ul li strong{
+	color: #e46c6d;
+}
+#error.valid ul li strong{
+	color: #93d72e;
+}
+/******* /FORM *******/
